@@ -44,7 +44,7 @@ def parse():
                         help='Path of the dataset')
     parser.add_argument('--data_type',
                         type=str,
-                        default='hotel',
+                        default='beer',
                         help='0:beer,1:hotel')
     parser.add_argument('--aspect',
                         type=int,
@@ -75,7 +75,7 @@ def parse():
                         help='')
     parser.add_argument('--num_gen',
                         type=int,
-                        default=5,
+                        default=3,
                         help='number generator')
     parser.add_argument('--share',
                         type=int,
@@ -123,7 +123,7 @@ def parse():
                         help='Number of training epoch')
     parser.add_argument('--lr_lambda',
                         type=float,
-                        default=3,
+                        default=1,
                         help='compliment learning rate [default: 1e-3]')
     parser.add_argument('--lr',
                         type=float,
@@ -131,11 +131,11 @@ def parse():
                         help='compliment learning rate [default: 1e-3]')
     parser.add_argument('--sparsity_lambda',
                         type=float,
-                        default=12.,
+                        default=11.,
                         help='Sparsity trade-off [default: 1.]')
     parser.add_argument('--continuity_lambda',
                         type=float,
-                        default=10.,
+                        default=12.,
                         help='Continuity trade-off [default: 4.]')
     parser.add_argument(
         '--sparsity_percentage',

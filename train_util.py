@@ -221,8 +221,6 @@ def train_multi_gen(model, optimizer, dataset, device, args,writer_epoch,grad,gr
         #     rationale_diff=rationale_diff/(len(rationales_list)-1)
         #     rationale_difference.append(rationale_diff/len(inputs))
     end_time=time.time()
-    print('yes')
-    print('train time={}'.format(end_time-start_time))
     precision = TP / (TP + FP)
     recall = TP / (TP + FN)
     f1_score = 2 * recall * precision / (recall + precision)
