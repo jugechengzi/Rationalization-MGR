@@ -36,6 +36,8 @@ python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sp
 For sparsity $S\approx 30$:   
 python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.273 --epochs 400 --aspect 0 
 
+When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.
+
 
 
 ## Result
