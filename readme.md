@@ -36,6 +36,12 @@ python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sp
 For sparsity $S\approx 30$:   
 python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.273 --epochs 400 --aspect 0 
 
+### Hotel  
+cleanliness:  
+python -u norm_beer.py --data_type hotel --lr 0.00007 --batch_size 1024 --gpu 0 --sparsity_percentage 0.1 --sparsity_lambda 10 --continuity_lambda 10 --epochs 800 --aspect 2
+
+
+
 When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.
 
 
@@ -59,6 +65,7 @@ Rationale
 rationale dataset : recall:0.8375 precision:0.9974 f1-score:0.9105 accuracy:0.8376  
 
 The last line "The annotation performance: sparsity: 20.2753, precision: 76.3473, recall: 83.6095, f1: 79.8135 " indicates the overlap between the selected tokens and human-annotated rationales. The penultimate line shows the predictive accuracy on the test set. 
+
 
 ## Questions
 If you have any questions, just open an issue or send us an e-mail.    
