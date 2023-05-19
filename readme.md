@@ -28,13 +28,13 @@ Word embedding: [glove.6B.100d.txt](https://nlp.stanford.edu/projects/glove/). T
 ### Correlated Beer
 #### Appearance:  
 For sparsity $S\approx 10$:   
-python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.083 --epochs 300 --aspect 0
+python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.083 --epochs 400 --aspect 0
 
 For sparsity $S\approx 20$:   
-python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.173 --epochs 300 --aspect 0
+python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.173 --epochs 400 --aspect 0
 
 For sparsity $S\approx 30$:   
-python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.273 --epochs 300 --aspect 0 
+python -u norm_beer.py --correlated 1 --lr 0.00003 --batch_size 128 --gpu 0 --sparsity_percentage 0.273 --epochs 400 --aspect 0 
 
 
 
