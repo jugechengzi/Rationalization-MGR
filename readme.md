@@ -50,7 +50,7 @@ When you change the random seed, you need to adjust the "sparsity_percentage" ac
 
 
 ## Result
-You will get a result like "best_dev_epoch=197" at last. Then you need to find the result corresponding to the epoch with number "194".  
+You will get a result like "best_dev_epoch=194" at last. Then you need to find the result corresponding to the epoch with number "194".  
 For Beer-Appearance, you may get a result like:  
 
 Train time for epoch #194 : 23.373237 second  
