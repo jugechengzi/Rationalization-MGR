@@ -1,6 +1,9 @@
 # MGR: Multi-generator based Rationalization   
 This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 main conference)](https://arxiv.org/abs/2305.04492).    
 
+Preparing code can be an exhausting task. Please consider giving our repository a star as a token of encouragement.  If you have any questions, just open an issue or send us an e-mail.      
+Thank you! 
+
 
 ## Environments
 RTX3090
@@ -67,8 +70,6 @@ rationale dataset : recall:0.8375 precision:0.9974 f1-score:0.9105 accuracy:0.83
 The last line "The annotation performance: sparsity: 20.2753, precision: 76.3473, recall: 83.6095, f1: 79.8135 " indicates the overlap between the selected tokens and human-annotated rationales. The penultimate line shows the predictive accuracy on the test set. 
 
 
-## Questions
-If you have any questions, just open an issue or send us an e-mail.    
-Preparing code can be an exhausting task. Please consider giving our repository a star as a token of encouragement.   
-Thank you! 
+ 
+
 
