@@ -67,7 +67,7 @@ annotation dataset : recall:0.8548 precision:0.9987 f1-score:0.9212 accuracy:0.8
 Rationale  
 rationale dataset : recall:0.8375 precision:0.9974 f1-score:0.9105 accuracy:0.8376  
 
-The last line "The annotation performance: sparsity: 20.2753, precision: 76.3473, recall: 83.6095, f1: 79.8135 " indicates the overlap between the selected tokens and human-annotated rationales. The penultimate line shows the predictive accuracy on the test set. 
+The last line "The annotation performance: sparsity: 20.2753, precision: 76.3473, recall: 83.6095, f1: 79.8135 " indicates the overlap between the selected tokens and human-annotated rationales. 
 
 
  
