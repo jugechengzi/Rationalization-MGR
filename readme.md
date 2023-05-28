@@ -1,5 +1,5 @@
 # MGR: Multi-generator based Rationalization   
-This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 main conference)](https://arxiv.org/abs/2305.04492).    
+This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://arxiv.org/abs/2305.04492).    
 
 Preparing code can be an exhausting task. We would be grateful if you would star this repo before cloning it.  If you have any questions, just open an issue or send us an e-mail.      
 Thank you! 
