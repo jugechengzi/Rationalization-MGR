@@ -1,3 +1,6 @@
+# Warning
+There is something unclear in our previous arxiv paper, please wait until the camera-ready paper is released by ACL.
+
 # MGR: Multi-generator based Rationalization   
 This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://arxiv.org/abs/2305.04492).    
 
