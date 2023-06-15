@@ -1,5 +1,5 @@
 # Warning
-We have updated our camera-ready paper on 2023.06.11, please make sure that the paper you are reading is the [latest version](https://github.com/jugechengzi/Rationalization-MGR/blob/main/paper.pdf). 
+We have updated our [camera-ready paper](https://github.com/jugechengzi/Rationalization-MGR/blob/main/paper.pdf) on 2023.06.11, please make sure that the paper you are reading is the latest version. 
 
 # MGR: Multi-generator based Rationalization   
 This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://arxiv.org/abs/2305.04492).    
