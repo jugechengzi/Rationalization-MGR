@@ -239,28 +239,17 @@ model.to(device)
 para = []
 if args.share==0:
     print('share=0')
-    for idx in range(args.num_gen):
+    para.append({'params': model.gen_list[0].parameters(), 'lr':args.lr})
+    for idx in range(args.num_gen-1):
         if args.dis_lr==1:
             multi_lr=(idx+1)*args.lr_lambda
-            para.append({'params': model.gen_list[idx].parameters(), 'lr':args.lr*multi_lr})
+            para.append({'params': model.gen_list[idx+1].parameters(), 'lr':args.lr+args.lr*multi_lr})
         else:
-            para.append({'params': model.gen_list[idx].parameters(), 'lr': args.lr})
+            para.append({'params': model.gen_list[idx+1].parameters(), 'lr': args.lr})
     para.append({'params':model.cls_fc.parameters(), 'lr':args.lr/args.num_gen})
     para.append({'params':model.cls.parameters(), 'lr':args.lr/args.num_gen})
 
-elif args.share==1:
-    g_encoder_para = list(map(id, model.gen.parameters()))
-    # g_fc_para=filter(lambda p: id(p) not in g_para, model.parameters())
-    for idx in range(args.num_gen):
-        if args.dis_lr == 1:
-            multi_lr = (idx + 1) * args.lr_lambda
-            para.append({'params': filter(lambda p: id(p) not in g_encoder_para, model.gen_list[idx].parameters()),
-                         'lr': args.lr * multi_lr})
-        else:
-            para.append({'params': model.gen_list[idx].parameters(), 'lr': args.lr})
-    para.append({'params': model.cls_fc.parameters(), 'lr': args.lr / args.num_gen})
-    para.append({'params': model.cls.parameters(), 'lr': args.lr / args.num_gen})
-    para.append({'params': model.gen.parameters(), 'lr': args.lr / args.num_gen})
+
 optimizer = torch.optim.Adam(para)
 
 
