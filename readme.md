@@ -47,6 +47,7 @@ cleanliness:
 python -u norm_beer.py --data_type hotel --lr 0.00007 --batch_size 1024 --gpu 0 --sparsity_percentage 0.1 --sparsity_lambda 10 --continuity_lambda 10 --epochs 800 --aspect 2
 
 
+**_Notes_**: "--sparsity_percentage 0.173" means "$s=0.173$" in Eq.3 (But the actual sparsity is different from $s$. See the results below.). "--sparsity_lambda 10 --continuity_lambda 10 " means $\lambda_1=10, \lambda_2=10$. "--epochs 400" means we run 400 epochs and take the results when the "dev_acc" is best.  
 
 When you change the random seed, you need to adjust the "sparsity_percentage" according to the actual sparsity on the test set.
 
