@@ -1,4 +1,3 @@
-# Warning
 We have updated our [camera-ready paper](https://github.com/jugechengzi/Rationalization-MGR/blob/main/paper.pdf) on 2023.06.11, please make sure that the paper you are reading is the latest version. 
 
 # MGR: Multi-generator based Rationalization   
@@ -76,6 +75,23 @@ rationale dataset : recall:0.8375 precision:0.9974 f1-score:0.9105 accuracy:0.83
 The last line "The annotation performance: sparsity: 20.2753, precision: 76.3473, recall: 83.6095, f1: 79.8135 " indicates the overlap between the selected tokens and human-annotated rationales. 
 
 
- 
+ ## Citation
+ @inproceedings{liu-etal-2023-mgr,
+    title = "{MGR}: Multi-generator Based Rationalization",
+    author = "Liu, Wei  and
+      Wang, Haozhao  and
+      Wang, Jun  and
+      Li, Ruixuan  and
+      Li, Xinyang  and
+      Zhang, YuanKai  and
+      Qiu, Yang",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = july,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.715",
+    pages = "12771--12787",
+}
 
 
