@@ -1,7 +1,7 @@
 We have updated our [camera-ready paper](https://github.com/jugechengzi/Rationalization-MGR/blob/main/acl2023.pdf) on 2023.06.11, please make sure that the paper you are reading is the latest version. 
 
 # MGR: Multi-generator based Rationalization   
-This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://arxiv.org/abs/2305.04492).  
+This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://github.com/jugechengzi/Rationalization-MGR/blob/main/acl2023.pdf).  
 
 **We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-MGR/blob/main/tips.pdf).** If you're still having trouble reproducing your code after reading these tips, I'd be happy to set up a video conference to help you.
 
