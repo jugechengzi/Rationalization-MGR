@@ -1,4 +1,5 @@
-We have updated our [camera-ready paper](https://github.com/jugechengzi/Rationalization-MGR/blob/main/acl2023.pdf) on 2023.06.11, please make sure that the paper you are reading is the latest version. 
+There was a minor issue in the previous version of our paper. Specifically, Equation 4 should read as follows: $\mathop{\min}\limits_{\theta_{G_1},\ldots,\theta_{G_n}, \theta_P}\sum\limits_{(X,Y)\sim \mathcal{D}} H(Y,\hat{Y})=\sum\limits_{(X,Y)\sim \mathcal{D}} \sum\limits_{i=1}^{n} H(Y,f_{P}(f_{G_i}(X)))$.  
+We have rectified this error in our [arxiv](https://arxiv.org/abs/2305.04492) version.
 
 # MGR: Multi-generator based Rationalization   
 This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://github.com/jugechengzi/Rationalization-MGR/blob/main/acl2023.pdf).  
