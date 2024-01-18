@@ -6,6 +6,8 @@ We highly recommend for reading a companion piece, [DR](https://github.com/jugec
 # MGR: Multi-generator based Rationalization   
 This repo contains Pytorch implementation of [MGR: Multi-generator based Rationalization  (ACL 2023 oral)](https://github.com/jugechengzi/Rationalization-MGR/blob/main/acl2023.pdf).  
 
+**If the code has any bugs, please open an issue. We will be grateful for your help.**
+
 **We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-MGR/blob/main/tips.pdf).** If you're still having trouble reproducing your code after reading these tips, I'd be happy to set up a video conference to help you.
 
 Preparing code can be an exhausting task. We would be grateful if you would star this repo before cloning it.  If you have any questions, just open an issue or send us an e-mail.      
