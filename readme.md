@@ -26,6 +26,10 @@ Install pytorch: conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0
 Install other packages: pip install -r requirements.txt
 
 
+Due to different versions of torch, you may need to replace "cls_loss = args.cls_lambda * F.cross_entropy(forward_logit, labels)" with "cls_loss = args.cls_lambda * F.cross_entropy(forward_logit, labels.long())"
+
+
+
 ## Datasets  
 For Beer Reviews, you should first obtain authorization for this dataset from the original author.
  
