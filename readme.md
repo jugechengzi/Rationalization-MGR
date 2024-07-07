@@ -8,10 +8,10 @@ You can also refer to our team's other complementary work in this series：[FR (
 
 **If the code has any bugs, please open an issue. We will be grateful for your help.**
 
-**We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-MGR/blob/main/tips.pdf).** If you're still having trouble reproducing your code after reading these tips, I'd be happy to set up a video conference to help you.
+**We have provided some tips for you to better understand our code and build your method on top of it: [tips](https://github.com/jugechengzi/Rationalization-MGR/blob/main/tips.pdf).** If you're still having trouble reproducing your code after reading these tips, I'd be happy to set up a video meeting to help you.
 
-Preparing code can be an exhausting task. We would be grateful if you would star this repo before cloning it.  If you have any questions, just open an issue or send us an e-mail.      
-Thank you! 
+I am happy to say that a recent paper called [SSR](https://arxiv.org/abs/2403.07955) has taken our previous work [FR](https://github.com/jugechengzi/FR) as a backbone. Congratulations on the great work of Yue et.al. and thanks for their citation. I also find that several recent works, such as [GR](https://ojs.aaai.org/index.php/AAAI/article/download/29783/31352) and [YOFO](https://arxiv.org/abs/2311.02344), have designed their experiments based on our open source code. Congratulations to all of them and I am really happy to know that my work is helping others.
+
 
 
 ## Environments
